@@ -37,7 +37,7 @@ let stringno = String(someno)
 
 let value = 3
 let negvalue = -value
-console.log(negvalue)
+//console.log(negvalue)
 
 let str1 = "hello"
 let str2 = " damien"
@@ -57,6 +57,25 @@ num1 = num2 = num3 =2 + 2
 
 let gamecounter = 100
 ++gamecounter;// prefix increment the increment operator increments and returns the value after incrementing.
-console.log(gamecounter)
+//console.log(gamecounter)
 
 //postfix op ncrements and returns value before incrementing
+
+
+
+
+let value1 = 3
+let negvalue1 = -value1
+console.log(negvalue1);
+
+
+let str5 = "hello"
+let str4 = " damien"
+
+let str6 = str5 + str4
+
+//console.log(str6);
+
+
+
+
