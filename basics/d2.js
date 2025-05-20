@@ -36,14 +36,35 @@ console.log(typeof myfunc)
 
 
 //Primitive datatypes:
-String - string
-Number - number
-Boolean - Boolean
-Null - object(****)
-Undefined - undefined
-BigInt - bigint
+//String - string
+//Number - number
+//Boolean - Boolean
+//Null - object(****)
+//Undefined - undefined
+//BigInt - bigint
 
-Non-primitive datatypes:
-Array - object
-Function - function(object)
-Object - object
+//Non-primitive datatypes:
+//Array - object
+//Function - function(object)
+//Object - object
+
+
+//stack(primitive)->change happens in copy   , heap(non-primitive)->changes happen in reference original value
+
+let myname = "damien"
+
+let anothername = myname
+anothername = "Adrien"
+
+console.log(anothername)
+console.log(myname)
+
+let user1 = {
+    email:"user@gmail.com",
+    upi:"user@ybl.com"
+}
+
+let user2 = user1
+user2.email = "damien@google.com"
+console.log(user1.email);
+console.log(user2.email);
