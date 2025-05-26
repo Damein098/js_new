@@ -42,12 +42,41 @@ const users = [
     }
 ]
 users[1].name
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser)); //returns keys of the object in array datatype
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(Object.keys(tinderuser)); //returns keys of the object in array datatype
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty("isloggedin")); //returns true if the object has the property
+// console.log(tinderuser.hasOwnProperty("isloggedin")); //returns true if the object has the property
 
 
+const course = {
+    coursename:"js in hindi",
+    price:"999",
+    courseteacher:"hitesh"
+}
+
+// course.courseteacher
+
+
+//destructuring
+const {courseteacher:instructor} = course
+
+// console.log(courseteacher);
+console.log(instructor);
+
+//react
+// const navbar = ({company}) => { //destructuring
+
+// }
+
+// navbar(company="hitesh")
+
+//API
+
+// {
+//     "name":"hitesh",
+//     "coursename":"js",
+//     "price":"free"
+// }
