@@ -38,4 +38,39 @@ function loginusermessage(username = "Sam") {//default vallue
 
 
 // console.log(loginusermessage("damien"))
-console.log(loginusermessage())//undefined when nothing is passed
+// console.log(loginusermessage())//undefined when nothing is passed
+
+function calcartprice(val1,val2,...num1) {//rest operator...
+    return num1
+}
+
+// console.log(calcartprice(200,400,500,2000,600))
+
+//pass objects
+const user = {
+    username:"damien",
+    prices:200
+}
+function handleobj(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+// handleobj(user)
+//another method of passing objects
+handleobj({
+    username:"sam",
+    price:500
+})
+
+
+
+
+
+const myarr = [200,500,600,800]
+
+function returnvalue(getarray) {
+    return getarray[3]
+}
+
+// console.log(returnvalue(myarr));
+console.log(returnvalue([200,400,500,900]));
