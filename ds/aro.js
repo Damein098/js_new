@@ -60,3 +60,9 @@ const user = {//here current context we use this keyword to acces everything in 
  const myarr = [2,4,6,5,9]
 
  myarr.forEach()
+
+
+
+
+
+ 
