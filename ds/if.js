@@ -73,7 +73,21 @@ switch (month) {
         break;
 }
 
+//nullish coalescing operator(??)
 
+let val;
+// val = 5?? 10//5
+// val = null ?? 10//10
+// val = undefined ?? 15//15
+// val = null ?? 10 ?? 14//10
+// console.log(val);
+
+
+//ternary operator
+
+// condition ? true :false
+const iceteaprice = 100
+iceteaprice <=80 ? console.log("less than 80"):console.log("morethan 80");
 
 
 
