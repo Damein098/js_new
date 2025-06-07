@@ -35,7 +35,8 @@
 //     .map((num) =>num + 1)
 //     .filter((num)=> num >=40 )
 // console.log(mynumrs);
-//reduce
+//reduce method  
+//reduce the elements of an array to a single value    
 
 const mynums = [1,2,3]
 
