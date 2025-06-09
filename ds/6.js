@@ -35,16 +35,24 @@
 //     .map((num) =>num + 1)
 //     .filter((num)=> num >=40 )
 // console.log(mynumrs);
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //reduce method  
 //reduce the elements of an array to a single value    
 
 const mynums = [1,2,3]
 
 // const mytotal = mynums.reduce(function(acc,currval){
-//     console.log(`acc::${acc} and curr::${currval}`);
+//  console.log(`acc::${acc} and curr::${currval}`);
     
-//     return acc +currval
-// },0)//send this value to accumulator
+//      return acc +currval
+//  },0)//send this value to accumulator
 
 
 
@@ -53,6 +61,24 @@ console.log(mytotal);
 
 
 
+const cart  = [{
+    itemname:"books",
+    price:2999
+},{
+    itemname:"toys",
+    price:5000
+
+},{
+    itemname:"food",
+    price:8000
+
+},{
+    itemname:"dress",
+    price:10000
+
+},]
 
 
+const total = cart.reduce((acc,item)=>acc+ item.price,0)
 
+console.log(total);
