@@ -1,1 +1,8 @@
-//watch async javascript fundamentals video on youtube
+
+
+
+js is a synchronous language and single threaded language 
+
+blocking code vs non blocking code
+block flow of prog        ||||||   does not block execution of prog
+read file synchronous        ||||||||||||  read  file asynchronous
